@@ -1,0 +1,43 @@
+/* Write your CSS here */
+/* index.css */
+.app-container {
+  background-color: #ffc2a0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  color: #ff8542;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+/* index.css */
+.todo-container {
+  background-color: #ffc2a0;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
