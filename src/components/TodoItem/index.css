@@ -1,40 +1,36 @@
 /* Write your CSS here */
-/* index.css */
-.todo-item-container {
-  background-color: #ffc2a0;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
+.todo-item {
+  list-style-type: none;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-right: 30px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 10px;
 }
-
-.description {
-  color: #000000;
-  font-size: 16px;
-  margin: 0;
-}
-
-.button {
-  background-color: transparent;
+/* .inner-container {
+  background-color: white;
+} */
+.delete-btn {
+  background-color: white;
   color: #ff0b37;
   border: 2px solid #ff0b37;
-  padding: 8px 16px;
-  font-size: 14px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  padding: 10px 15px;
+  margin-bottom: 5px;
 }
-
-.button:hover {
-  background-color: #ff0b37;
-  color: #ffffff;
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto';
 }
-
-button:focus {
-  outline: none;
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
 }
